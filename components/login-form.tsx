@@ -47,9 +47,11 @@ export default function LoginForm() {
         aria-label="Login card"
       >
         <div className="mb-6 flex items-center gap-4 border-b border-border pb-5">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-border bg-muted/50 text-2xl font-bold text-primary">
-            CF
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="Children of Fatima School of Mabalacat Inc."
+            className="h-16 w-16 rounded-2xl object-cover border border-border shadow-lg"
+          />
           <div>
             <h1 className="text-lg font-extrabold leading-tight text-foreground text-balance">
               Children of Fatima School of Mabalacat Inc.

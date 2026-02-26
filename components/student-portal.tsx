@@ -173,9 +173,11 @@ export default function StudentPortal() {
         }`}
       >
         <div className="mb-6 flex items-center gap-3 border-b border-border pb-5">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-muted text-lg font-bold text-primary shadow-lg">
-            CF
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="Children of Fatima School of Mabalacat Inc."
+            className="h-12 w-12 rounded-xl object-cover border border-border shadow-lg"
+          />
           <div>
             <div className="text-lg font-extrabold text-foreground">CFSI</div>
             <div className="text-xs text-muted-foreground">Student Portal</div>

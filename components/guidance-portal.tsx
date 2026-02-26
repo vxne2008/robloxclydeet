@@ -111,9 +111,11 @@ export default function GuidancePortal() {
         className={`fixed inset-y-0 left-0 z-50 flex w-72 flex-col border-r border-border bg-muted/95 p-5 shadow-2xl backdrop-blur-xl transition-transform lg:static lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="mb-6 flex items-center gap-3 border-b border-border pb-5">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-muted text-lg font-bold text-primary shadow-lg">
-            CF
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="Children of Fatima School of Mabalacat Inc."
+            className="h-12 w-12 rounded-xl object-cover border border-border shadow-lg"
+          />
           <div>
             <div className="text-lg font-extrabold text-foreground">CFSI</div>
             <div className="text-xs text-muted-foreground">
