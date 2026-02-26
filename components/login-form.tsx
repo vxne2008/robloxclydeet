@@ -48,7 +48,7 @@ export default function LoginForm() {
       >
         <div className="mb-6 flex items-center gap-4 border-b border-border pb-5">
           <img
-            src="/logo.jpg"
+            src="/original-logo.png"
             alt="Children of Fatima School of Mabalacat Inc."
             className="h-16 w-16 rounded-2xl object-cover border border-border shadow-lg"
           />

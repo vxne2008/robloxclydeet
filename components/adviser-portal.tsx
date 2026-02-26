@@ -145,7 +145,7 @@ export default function AdviserPortal() {
       >
         <div className="mb-6 flex items-center gap-3 border-b border-border pb-5">
           <img
-            src="/logo.jpg"
+            src="/original-logo.png"
             alt="Children of Fatima School of Mabalacat Inc."
             className="h-12 w-12 rounded-xl object-cover border border-border shadow-lg"
           />

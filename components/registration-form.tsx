@@ -74,7 +74,7 @@ export default function RegistrationForm() {
       <header className="sticky top-0 z-50 border-b border-border bg-muted/80 px-6 py-4 shadow-2xl backdrop-blur-xl">
         <div className="mx-auto flex max-w-5xl items-center gap-4">
           <img
-            src="/logo.jpg"
+            src="/original-logo.png"
             alt="Children of Fatima School of Mabalacat Inc."
             className="h-14 w-14 rounded-lg object-cover border border-border shadow-md"
           />
